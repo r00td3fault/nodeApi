@@ -10,9 +10,9 @@ function routerApi(app){
   router.use('/users', usersRouter);
   router.use('/categories', categoriesRouter);
 
-  const router2 = express.Router();
-  app.use('/api/v2', router2);
-  router2.use('/products', productsRouter);
+  // const router2 = express.Router();
+  // app.use('/api/v2', router2);
+  // router2.use('/products', productsRouter);
 }
 
 module.exports = routerApi;
